@@ -1,0 +1,63 @@
+.navbar {
+    background-color: rgb(7, 3, 88);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: aliceblue;
+    color: rgb(7, 3, 88);
+font-family: 'Roboto', sans-serif;
+}
+
+#cabecalho .nav .nav-link {
+    color: aliceblue;
+font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar-brand:hover {
+    color: aliceblue;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.section-title {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.section-title span {
+color: rgb(29, 21, 181);
+}
+
+#sobre-o-jogo {
+    background-color: rgb(157, 167, 181);
+}
+
+#trailer {
+    background-color: rgb(195, 205, 219);
+}
+
+
+.nav-jogos .nav-link.active {
+    background-color: rgb(7, 3, 88);
+    color: aliceblue;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    .navbar-toggler-icon{
+height: 10px;
+    }
+
+    #cabecalho h1 {
+        font-size: 14px;
+    }
+
+    }
